@@ -20,6 +20,9 @@ Paragon was built to solve this. It's not another cloud platform or a bloated su
 
 *   **Methodology-First Workflow:** Start every hunt with a plan. The UI is built around a central checklist, ensuring every note and finding is contextual and organized by default.
 *   **A Pro's Playbook, Built-In:** The default template is based on the **TBHMv4 (The Bug Hunter's Methodology v4)**, curated from the legendary work of Jason Haddix. It provides a world-class road map for both beginners and veterans.
+
+![image](https://github.com/user-attachments/assets/4ae02834-f829-48e0-9905-f1433f1f7965)
+
 *   **Focused, Contextual Notes:** Clicking on a methodology step filters your workbench to show *only* the notes for that task. No more context switching.
 *   **Clean, Minimal Interface:** A calm, clutter-free environment designed for deep work, available in both light and dark modes.
 
@@ -40,10 +43,7 @@ Paragon uses a simple, transparent data model.
 ![image](https://github.com/user-attachments/assets/c459b650-4142-424b-82ab-e5cde8bfbd6a)
 
 *   **Data is Ephemeral by Default:** Work lives in memory during a session. **If you close the app without saving, your progress will be lost.**
-*   **Save to Persist:** The only way to keep your work is to use **`Save`** to export your current state to a `.yaml` file. To resume, you simply **`Open`** that file.
-  
-  ![image](https://github.com/user-attachments/assets/c368148d-ef81-43d8-9635-d30fe193e92b)
-  
+*   **Save to Persist:** The only way to keep your work is to use **`Save`** to export your current state to a `.yaml` file. To resume, you simply **`Open`** that file.  
 
 This model was chosen for the MVP to guarantee user privacy and data portability.
 
