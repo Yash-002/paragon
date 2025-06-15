@@ -4,7 +4,8 @@
 
 Paragon is a minimal, modern desktop application built for one purpose: to bring structure and discipline to the chaotic process of security research. It's an accountability partner that helps you follow a plan, document your work meticulously, and keep your focus sharp.
 
- 
+ ![image](https://github.com/user-attachments/assets/9ae1434b-88e1-4f59-aa51-61b6cdb1bea1)
+
 
 ---
 
