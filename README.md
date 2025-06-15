@@ -36,8 +36,14 @@ This isn't a feature; it's a promise.
 Paragon uses a simple, transparent data model.
 
 *   **YAML is the Source of Truth:** Your entire project is stored in a single, human-readable `.yaml` file.
+
+![image](https://github.com/user-attachments/assets/c459b650-4142-424b-82ab-e5cde8bfbd6a)
+
 *   **Data is Ephemeral by Default:** Work lives in memory during a session. **If you close the app without saving, your progress will be lost.**
 *   **Save to Persist:** The only way to keep your work is to use **`Save`** to export your current state to a `.yaml` file. To resume, you simply **`Open`** that file.
+  
+  ![image](https://github.com/user-attachments/assets/c368148d-ef81-43d8-9635-d30fe193e92b)
+  
 
 This model was chosen for the MVP to guarantee user privacy and data portability.
 
@@ -53,7 +59,11 @@ You control who sees your work. Always.
 ### Getting Started
 
 #### Online
-Visit [notes.bugbountyhunting.com](https://notes.bugbountyhunting.com)
+- Visit [notes.bugbountyhunting.com](https://notes.bugbountyhunting.com)
+- Follow the steps
+
+![image](https://github.com/user-attachments/assets/d2ef5f02-7f3e-4fae-a069-0df997e70284)
+
 
 #### Host Yourself
 1.  Download the latest release for your OS from the [Releases](https://github.com/payloadartist/paragon/releases) page.
@@ -61,6 +71,17 @@ Visit [notes.bugbountyhunting.com](https://notes.bugbountyhunting.com)
 3.  Click `+ New` to start a project with the default TBHM methodology.
 4.  Work through the checklist, taking notes in the workbench.
 5.  Click `Save` to export your progress to a `.yaml` file when you're done.
+
+## Appearance
+- There are two themes that can be toggled via the icon in the top right corner:
+    - Light
+
+  ![image](https://github.com/user-attachments/assets/0c3fea62-66e8-4680-a57f-f0b9497fecb2)
+
+    - Dark
+
+  ![image](https://github.com/user-attachments/assets/9ae1434b-88e1-4f59-aa51-61b6cdb1bea1)
+
 
 ### Contributing
 
