@@ -2,7 +2,7 @@
 
 **Your Standard for Security. A private, methodology-driven notebook for pentesters and bug bounty hunters.**
 
-Paragon is a minimal, modern desktop app built to bring structure to the chaos of security research. It's a personal accountability partner that helps you follow a plan, document your work, and stay focused.
+Paragon is a minimal, modern web app built to bring structure to the chaos of security research. It's a personal accountability partner that helps you follow a plan, document your work, and stay focused. It can be run locally, and doesn't need a website.
 
 ![image](https://github.com/user-attachments/assets/9ae1434b-88e1-4f59-aa51-61b6cdb1bea1)
 
@@ -52,6 +52,10 @@ You control who sees your work. Always.
 
 ### Getting Started
 
+#### Online
+Visit [notes.bugbountyhunting.com](https://notes.bugbountyhunting.com)
+
+#### Host Yourself
 1.  Download the latest release for your OS from the [Releases](https://github.com/payloadartist/paragon/releases) page.
 2.  Unzip and open the application.
 3.  Click `+ New` to start a project with the default TBHM methodology.
