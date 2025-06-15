@@ -4,7 +4,7 @@
 
 Paragon is a minimal, modern web app built to bring structure to the chaos of security research. It's a personal accountability partner that helps you follow a plan, document your work, and stay focused. It can be run locally, and doesn't need a website.
 
-![image](https://github.com/user-attachments/assets/9ae1434b-88e1-4f59-aa51-61b6cdb1bea1)
+![image](https://github.com/user-attachments/assets/1f3c8c29-e437-4e11-829c-3d594cc706bf)
 
 ---
 
@@ -76,12 +76,11 @@ You control who sees your work. Always.
 - There are two themes that can be toggled via the icon in the top right corner:
     - Light
 
-  ![image](https://github.com/user-attachments/assets/0c3fea62-66e8-4680-a57f-f0b9497fecb2)
+![image](https://github.com/user-attachments/assets/c1f50641-3601-4ec9-8da4-4bc44cd73252)
 
     - Dark
 
-  ![image](https://github.com/user-attachments/assets/9ae1434b-88e1-4f59-aa51-61b6cdb1bea1)
-
+![image](https://github.com/user-attachments/assets/1f3c8c29-e437-4e11-829c-3d594cc706bf)
 
 ### Contributing
 
