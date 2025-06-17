@@ -2,7 +2,7 @@ name: Tesla
 methodology:
   - id: phase-0
     title: 'Phase 0: Project Initiation & Scoping'
-    completed: false
+    completed: true
     children:
       - id: define-scope
         title: Define Scope (Parse Program Policy)
@@ -14,7 +14,7 @@ methodology:
         parentId: phase-0
       - id: review-resources
         title: Review Foundational Resources (Web App Hacker's Handbook, Hacking APIs, etc.)
-        completed: false
+        completed: true
         parentId: phase-0
       - id: research-past-disclosures
         title: Research Past Disclosures (HackerOne/Bugcrowd for target, Google `"[target] vulnerability"`)
@@ -277,23 +277,36 @@ methodology:
 notes:
   - stepId: define-scope
     content: |-
-      *     full:c.pki.goog @cn
-      *     full:i.pki.goog @cn
-      *     full:o.pki.goog @cn
+      # Core Customer-Facing Services
+      *     full:www.tesla.com
+      *     full:shop.tesla.com @e-commerce
+      *     full:auth.tesla.com @sso @login
+      *     full:engage.tesla.com @community
+      *     full:forums.tesla.com @legacy
 
-      # Google Public CA API Endpoint
-      *     full:publicca.googleapis.com
-      *     full:preprod-publicca.googleapis.com
+      # Owner & Vehicle API Endpoints
+      *     full:owner-api.teslamotors.com @api @legacy
+      *     full:api.vn.teslamotors.com @api @regional
+      *     full:streaming.vn.teslamotors.com @api
 
-      # Deprecated earlier
-      *     full:clients1.google.com
-      *     full:pki.google.com
+      # Corporate & Internal-Facing Systems
+      *     full:sso.tesla.com @sso
+      *     full:mfa.tesla.com @mfa
+      *     full:vpn.tesla.com @internal
+      *     full:jira.tesla.com @internal @devops
+      *     full:confluence.tesla.com @internal @wiki
+      *     full:autodiscover.tesla.com @email
 
-      # Deprecated recently
-      *     full:crl.pki.goog @cn
-      *     full:crls.pki.goog @cn
-      *     full:ocsp.pki.goog @cn
-    lastModified: '2025-06-16T13:36:27.814Z'
+      # Acquired & Related Company Assets
+      *     full:www.solarcity.com @acquisition
+      *     full:auth.solar-city.com @sso @acquisition
+      *     full:selfservice.solarcity.com @login @acquisition
+
+      # Regional & International Endpoints
+      *     full:www.tesla.cn @cn
+      *     full:shop.jp.tesla.com @jp @e-commerce
+      *     full:service.kr.tesla.com @kr @service
+    lastModified: '2025-06-17T09:56:47.299Z'
   - stepId: review-resources
     content: ''
     lastModified: '2025-06-17T09:35:51.696Z'
@@ -454,7 +467,6 @@ notes:
   - stepId: acquisitions
     content: |-
 
-      #### Gather Seed/Root Domains (Asset Expansion)
 
       # Acquisitions for Tesla, Inc. discovered via Crunchbase.
       # These domains are now considered seeds for further enumeration.
@@ -476,7 +488,7 @@ notes:
 
       *     company:Riviera Tool LLC @crunchbase
       *     full:rivieratool.com @acquisition
-    lastModified: '2025-06-17T09:34:03.798Z'
+    lastModified: '2025-06-17T09:57:32.371Z'
   - stepId: research-past-disclosures
     content: |-
       #### Research Past Disclosures
@@ -528,4 +540,4 @@ notes:
       *     full:paramountsolar.com @reverse-whois @email:hostmaster@solarcity.com
     lastModified: '2025-06-17T09:37:37.707Z'
 createdAt: '2025-06-15T05:27:57.909Z'
-lastModified: '2025-06-17T09:37:55.145Z'
+lastModified: '2025-06-17T09:57:39.707Z'
